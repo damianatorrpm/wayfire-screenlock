@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<wayfire>
+	<plugin name="screenlock">
+	<_short>Lock Screen</_short>
+	<category>Desktop</category>
+	<option name="activate" type="key">
+		<_short>Activate</_short>
+		<default>&lt;super&gt; KEY_L</default>
+	</option>
+	<option name="command" type="string">
+		<_short>Command</_short>
+		<default>swaylock</default>
+	</option>
+	</plugin>
+</wayfire>
